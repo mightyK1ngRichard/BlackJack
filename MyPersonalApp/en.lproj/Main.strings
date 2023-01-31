@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "Таймер: 30 сек"; ObjectID = "6cf-iY-wX1"; */
+"6cf-iY-wX1.text" = "Таймер: 30 сек";
+
+/* Class = "UIButton"; configuration.title = "80"; ObjectID = "7GN-AJ-0dH"; */
+"7GN-AJ-0dH.configuration.title" = "80";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7GN-AJ-0dH"; */
+"7GN-AJ-0dH.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "50"; ObjectID = "7J7-hP-90a"; */
+"7J7-hP-90a.configuration.title" = "50";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7J7-hP-90a"; */
+"7J7-hP-90a.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "70"; ObjectID = "CTf-iW-c1c"; */
+"CTf-iW-c1c.configuration.title" = "70";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CTf-iW-c1c"; */
+"CTf-iW-c1c.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Время игры"; ObjectID = "DWf-sf-fpC"; */
+"DWf-sf-fpC.text" = "Время игры";
+
+/* Class = "UIButton"; configuration.title = "90"; ObjectID = "IxE-Ru-XOo"; */
+"IxE-Ru-XOo.configuration.title" = "90";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IxE-Ru-XOo"; */
+"IxE-Ru-XOo.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "30"; ObjectID = "Kzy-q4-GKs"; */
+"Kzy-q4-GKs.configuration.title" = "30";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Kzy-q4-GKs"; */
+"Kzy-q4-GKs.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Таймер"; ObjectID = "NDZ-Vo-sJZ"; */
+"NDZ-Vo-sJZ.text" = "Таймер";
+
+/* Class = "UIButton"; configuration.title = "100"; ObjectID = "NH8-6I-aOZ"; */
+"NH8-6I-aOZ.configuration.title" = "100";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NH8-6I-aOZ"; */
+"NH8-6I-aOZ.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Menu"; ObjectID = "Qvm-Yk-SfV"; */
+"Qvm-Yk-SfV.title" = "Menu";
+
+/* Class = "UILabel"; text = "30 сек"; ObjectID = "co6-7u-uOY"; */
+"co6-7u-uOY.text" = "30 сек";
+
+/* Class = "UIButton"; configuration.title = "По умолчанию"; ObjectID = "dfE-1h-xcT"; */
+"dfE-1h-xcT.configuration.title" = "По умолчанию";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dfE-1h-xcT"; */
+"dfE-1h-xcT.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "110"; ObjectID = "f9T-wn-Vqf"; */
+"f9T-wn-Vqf.configuration.title" = "110";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "f9T-wn-Vqf"; */
+"f9T-wn-Vqf.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Найстройки"; ObjectID = "kOp-LM-cMl"; */
+"kOp-LM-cMl.configuration.title" = "Найстройки";
+
+/* Class = "UIButton"; configuration.title = "60"; ObjectID = "tff-gv-pEJ"; */
+"tff-gv-pEJ.configuration.title" = "60";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tff-gv-pEJ"; */
+"tff-gv-pEJ.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "Hello Richard!"; ObjectID = "uD5-De-36U"; */
+"uD5-De-36U.text" = "Hello Richard!";
+
+/* Class = "UIButton"; configuration.title = "40"; ObjectID = "y7S-cZ-IjS"; */
+"y7S-cZ-IjS.configuration.title" = "40";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "y7S-cZ-IjS"; */
+"y7S-cZ-IjS.normalTitle" = "Button";
