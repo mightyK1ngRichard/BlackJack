@@ -66,7 +66,7 @@ class GameViewController: UIViewController {
                     return true
                 }
                 
-                if dealerSum >= 15 {
+                if dealerSum >= 16 {
                     return false
                 }
 //                do {
@@ -90,8 +90,7 @@ class GameViewController: UIViewController {
     
     @IBAction func pressStop(_ sender: Any) {
         if !stopGame() {
-            let userSum = GameBlackJack.shared.userSum
-            let dealerSum = GameBlackJack.shared.dealerSum
+            let (userSum, dealerSum) = GameBlackJack.shared.getGameResult()
             resultGameLabel.isHidden = false
             if userSum > dealerSum {
                 resultGameLabel.text = "Вы победили!"
