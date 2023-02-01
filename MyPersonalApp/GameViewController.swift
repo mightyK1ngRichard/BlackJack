@@ -8,14 +8,18 @@
 import UIKit
 
 class GameViewController: UIViewController {
-
-    @IBOutlet weak var dealerSumLabel: UILabel!
-    @IBOutlet weak var resultGameLabel: UILabel!
-    @IBOutlet weak var dealerCardLabel: UITextField!
-    @IBOutlet weak var userCardLabel: UITextField!
-    @IBOutlet weak var sumLabel: UILabel!
-    @IBOutlet weak var takeCardButton: UIButton!
+    
+    @IBOutlet weak var userCardLabel: UIImageView!
+    @IBOutlet weak var dealerCardLabel: UIImageView!
     @IBOutlet weak var stopTakeCardButton: UIButton!
+    @IBOutlet weak var takeCardButton: UIButton!
+    
+    @IBOutlet weak var sumLabel: UILabel!
+    
+    @IBOutlet weak var dealerSumLabel: UILabel!
+    
+    @IBOutlet weak var resultGameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         GameBlackJack.shared.resetGame()
@@ -23,20 +27,21 @@ class GameViewController: UIViewController {
     
     private func loadDataOnVC() {
         let res = GameBlackJack.shared.TakeCard()
-        if let name = res.1, let suit = res.2 {
+        sumLabel.isHidden = false
+        if let name = res.1 {
             let userSum = res.0
             if userCardLabel.isHidden {
                 userCardLabel.isHidden = false
             }
-            sumLabel.text = "Сумма игрока: \(userSum)"
-            userCardLabel.text = "\(name) \n\(suit)"
+            sumLabel.text = "\(userSum)"
+            userCardLabel.image = UIImage(named: name)
             if userSum > 21 {
                 resultGameLabel.isHidden = false
                 resultGameLabel.textColor = .red
                 resultGameLabel.text = "Вы проиграли!"
                 takeCardButton.isHidden = true
                 stopTakeCardButton.isHidden = true
-                // STOP
+                return
             }
             
         } else {
@@ -52,14 +57,13 @@ class GameViewController: UIViewController {
         dealerCardLabel.isHidden = false
         while true {
             let res = GameBlackJack.shared.StepDealer()
-            if let name = res.1, let suit = res.2 {
+            if let name = res.1 {
                 let dealerSum = res.0
                 if dealerCardLabel.isHidden {
                     dealerCardLabel.isHidden = false
                 }
-                dealerSumLabel.text = "Сумма дилера: \(dealerSum)"
-                dealerCardLabel.text = "\(name) \n\(suit)"
-                
+                dealerSumLabel.text = "\(dealerSum)"
+                dealerCardLabel.image = UIImage(named: name)
                 if dealerSum > 21 {
                     resultGameLabel.isHidden = false
                     resultGameLabel.textColor = .green
