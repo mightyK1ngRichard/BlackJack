@@ -40,6 +40,7 @@ class GameViewController: UIViewController {
             }
             
         } else {
+            
             print("Это невозможно.")
         }
     }

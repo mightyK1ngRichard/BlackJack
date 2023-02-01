@@ -8,10 +8,10 @@
 import Foundation
 
 enum Suit: String {
-    case Hearts = "♡"
-    case Diamonds = "♢"
-    case Clubs = "♣"
-    case Spades = "♤"
+    case Hearts = "♥️"
+    case Diamonds = "♦️"
+    case Clubs = "♣️"
+    case Spades = "♠️"
 }
 
 struct Card {
@@ -88,7 +88,7 @@ class GameBlackJack {
     func getGameResult() -> (Int, Int){
         return (userSum, dealerSum)
     }
-    
+
     func TakeCard() -> (Int, String?, String?) {
         cardsForGame.shuffle()
         if let takenCard = cardsForGame.popLast() {

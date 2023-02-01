@@ -316,6 +316,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ipy-je-lCa">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -469,19 +473,13 @@
                             <constraint firstItem="pmW-RS-HC2" firstAttribute="trailing" secondItem="6cf-iY-wX1" secondAttribute="trailing" constant="48" id="KlN-0x-RTU"/>
                             <constraint firstItem="pmW-RS-HC2" firstAttribute="trailing" secondItem="A9I-10-dHK" secondAttribute="trailing" constant="109" id="M4U-Hz-ub5"/>
                             <constraint firstItem="6cf-iY-wX1" firstAttribute="leading" secondItem="pmW-RS-HC2" secondAttribute="leading" constant="70" id="SNk-yI-a1H"/>
-                            <constraint firstItem="A9I-10-dHK" firstAttribute="leading" secondItem="pmW-RS-HC2" secondAttribute="leading" constant="120" id="V89-Mn-46Q"/>
-                            <constraint firstItem="A9I-10-dHK" firstAttribute="top" secondItem="6cf-iY-wX1" secondAttribute="bottom" constant="204.33000000000001" id="VNf-9s-oLw"/>
                             <constraint firstItem="A9I-10-dHK" firstAttribute="centerY" secondItem="pmW-RS-HC2" secondAttribute="centerY" id="ZRe-0S-p6D"/>
-                            <constraint firstItem="A9I-10-dHK" firstAttribute="top" secondItem="6cf-iY-wX1" secondAttribute="bottom" constant="238.33000000000001" id="Zxb-4N-bVf"/>
                             <constraint firstItem="A9I-10-dHK" firstAttribute="centerX" secondItem="pmW-RS-HC2" secondAttribute="centerX" id="c4y-mD-42b"/>
-                            <constraint firstItem="A9I-10-dHK" firstAttribute="top" secondItem="6cf-iY-wX1" secondAttribute="bottom" constant="238.33000000000001" id="cEq-99-nfv"/>
                             <constraint firstItem="pmW-RS-HC2" firstAttribute="trailing" secondItem="A9I-10-dHK" secondAttribute="trailing" constant="109" id="cR8-58-L9u"/>
                             <constraint firstItem="A9I-10-dHK" firstAttribute="top" secondItem="6cf-iY-wX1" secondAttribute="bottom" constant="238.33000000000001" id="feq-6l-xZf"/>
                             <constraint firstItem="pmW-RS-HC2" firstAttribute="trailing" secondItem="6cf-iY-wX1" secondAttribute="trailing" constant="48" id="gZu-rO-nnz"/>
-                            <constraint firstItem="pmW-RS-HC2" firstAttribute="bottom" secondItem="A9I-10-dHK" secondAttribute="bottom" constant="298" id="gza-Fv-IYI"/>
                             <constraint firstItem="6cf-iY-wX1" firstAttribute="top" secondItem="pmW-RS-HC2" secondAttribute="top" id="iOl-6t-e5i"/>
                             <constraint firstItem="6cf-iY-wX1" firstAttribute="top" secondItem="pmW-RS-HC2" secondAttribute="top" id="iYe-Qk-iXS"/>
-                            <constraint firstItem="pmW-RS-HC2" firstAttribute="trailing" secondItem="A9I-10-dHK" secondAttribute="trailing" constant="98" id="kGF-XH-BlC"/>
                             <constraint firstItem="pmW-RS-HC2" firstAttribute="bottom" secondItem="A9I-10-dHK" secondAttribute="bottom" constant="264" id="uoU-Q0-fIu"/>
                             <constraint firstItem="6cf-iY-wX1" firstAttribute="leading" secondItem="pmW-RS-HC2" secondAttribute="leading" constant="70" id="zTd-9w-4Yu"/>
                         </constraints>
